@@ -49,7 +49,4 @@ public @interface DataSharding {
 
     HintShardingStrategy tableHintShardingStrategy() default @HintShardingStrategy(hintShardingAlgorithm = HintShardingAlgorithm.class);
 
-
-
-
 }
