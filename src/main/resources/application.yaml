@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://1.15.150.218:3306/hdr_demo
+    username: hdr
+    password: '!234qweasz'
+
+mybatis-plus:
+  mapper-locations:
