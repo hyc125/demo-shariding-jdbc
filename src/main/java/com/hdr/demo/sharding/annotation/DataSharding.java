@@ -17,6 +17,8 @@ import org.apache.shardingsphere.api.sharding.standard.PreciseShardingAlgorithm;
 @Documented
 public @interface DataSharding {
 
+
+
     String logicTable();
 
     String actualDataNodes();
