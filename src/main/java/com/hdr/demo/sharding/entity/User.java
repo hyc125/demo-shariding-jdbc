@@ -11,14 +11,11 @@ import lombok.Data;
 @TableName("user")
 public class User {
 
-    @TableId("id")
-    private Long id;
-
     @TableField("user_id")
     private Long userId;
 
-    @TableField("name")
-    private String name;
+    @TableField("user_name")
+    private String userName;
 
     @TableField("age")
     private Integer age;

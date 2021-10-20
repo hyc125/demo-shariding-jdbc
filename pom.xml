@@ -12,10 +12,11 @@
     <artifactId>sharding</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>sharding</name>
-    <description>Demo project for Spring Boot</description>
+    <description>Demo project for Sharding Sphere JDBC</description>
     <properties>
         <java.version>11</java.version>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
